@@ -1,6 +1,16 @@
 @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
     ViewData["Title"] = "Welcome";
 }
 
-<h2>Welcome!</h2>
-<p>You are logged in 🎉</p>
+<div class="container mt-5" style="max-width: 400px;">
+    <h2>Welcome!</h2>
+    <p>You are logged in 🎉</p>
+
+    <form method="post" asp-action="Logout">
+        <button type="submit" class="btn btn-danger w-100">Logout</button>
+    </form>
+</div>

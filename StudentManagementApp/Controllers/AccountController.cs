@@ -32,4 +32,12 @@ public class AccountController : Controller
 
         return View();
     }
+
+    public IActionResult Logout()
+    {
+        TempData.Clear();
+        return RedirectToAction("Login");
+    }
+
 }
+
