@@ -1,47 +1,50 @@
-# PTS-Technical-Assessment
+# StudentManagementApp
 
-## ✅ How to Build and Run the Project
+## Overview
 
-Thank you again for checking out my project! Here's a quick step-by-step to help get it up and running:
+StudentManagementApp is a ASP.NET Core MVC web application. It demonstrates basic user authentication and student management functionality.
 
-### 1. Prerequisites
+---
 
-- [.NET SDK 8.0 or later](https://dotnet.microsoft.com/en-us/download)
-- A C#-compatible code editor (e.g., Visual Studio Code with the C# Dev Kit)
+## Features
 
+### Authentication (Login System)
 
-### 2. Clone the Repository
+- Simple login form using MVC.
+- Hardcoded credentials (`admin` / `password123`) for demonstration.
+- Error message on invalid login.
+- Welcome page after login.
+- Logout button that clears login session and redirects to login.
 
-git clone https://github.com/your-username/TodoApi.git
-cd TodoApi
-(Replace with your actual GitHub link)
+### Student Management (View Only)
 
+- View a list of students.
+- Student fields displayed: Name, Email, Course, Enrolment Date.
+- Dummy student data seeded into an in-memory database.
+- Responsive and clean UI using Bootstrap 5.
 
-## 3. Restore Dependencies
-   
-dotnet restore
-   
+---
 
-## 4. Build the Project
+## Technologies Used
 
-dotnet build
+- ASP.NET Core MVC
+- Entity Framework Core (In-Memory Database)
+- Bootstrap 5 (via CDN)
+- C#
 
-## 5. Run the API
-dotnet run
+---
 
-(Then you should see an output like :Now listening on: https://localhost:5001
-)
+## Getting Started
 
-## 6. Notes 
+### Prerequisites
 
-- ASP.NET Core MVC pattern (Model, View, Controller)
+- [.NET 6 SDK or later](https://dotnet.microsoft.com/download)
+- Visual Studio, VS Code, or any C# IDE/editor
 
-- Uses Entity Framework Core via ApplicationDbContext.cs
+### Installation & Run
 
-- Configurations in appsettings.json and Program.cs
+1. Clone the repository:
 
-- Views and controllers for basic student management (in progress)
-
-- Project is incomplete but scaffolded
-
-
+   ```bash
+   git clone https://github.com/yourusername/StudentManagementApp.git
+   cd StudentManagementApp
