@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
-
-</Project>
-=======
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
@@ -26,4 +15,3 @@
   </ItemGroup>
 
 </Project>
->>>>>>> ebdbba003231e3a67086a160ff3a5a2bd2bff56a
